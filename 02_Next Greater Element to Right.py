@@ -39,6 +39,8 @@ def solve(arr):
         
     
 if __name__ == "__main__":
-    arr = [10,7,5,4,9,2,1]
+    arr = [10, 7, 5, 4, 9, 2, 1]
     ans = solve(arr)
     print(ans)
+
+#output [-1, 9, 9, 9, -1, -1, -1]
