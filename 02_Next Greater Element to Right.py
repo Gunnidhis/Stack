@@ -10,7 +10,7 @@
 
 # Intuition : In NGER, we will traverse from the right to the left to maintain the right greater element for each element.
 
-#              In stack, we will contain the all the greater right elements for a perticular element to its right.
+#              In stack, we will contain the greater right elements for a perticular element to its right.
 #                          01. if curr element is small than stack.top(),we will pop the element from stack until we get the element which is greater than curr.
 #                          02. if stack.top() element is greater then curr element (i.e. since stack contain right greater element for each element hence this element will be in our answer array) 
 def solve(arr):
